@@ -1,6 +1,6 @@
 name: elegant_nav_bar
 description: "A sleek, customizable bottom navigation bar for Flutter with animated selection indicators, SVG support, and distinctive dot indicators."
-version: 0.0.21
+version: 0.0.22
 homepage: https://github.com/omarfarouk228/elegant_nav_bar
 
 environment:

@@ -1,4 +1,4 @@
-[![pub](https://img.shields.io/pub/v/elegant_nav_bar?label=pub&logo=dart)](https://pub.dev/packages/elegant_nav_bar/install) [![stars](https://img.shields.io/github/stars/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar)  [![issues](https://img.shields.io/github/issues/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar/issues) [![commit](https://img.shields.io/github/last-commit/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar/commits)
+[![pub](https://img.shields.io/pub/v/elegant_nav_bar?label=pub&logo=dart)](https://pub.dev/packages/elegant_nav_bar/install) [![stars](https://img.shields.io/github/stars/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar) [![issues](https://img.shields.io/github/issues/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar/issues) [![commit](https://img.shields.io/github/last-commit/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar/commits)
 
 # Elegant Navigation Bar
 
@@ -20,7 +20,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  elegant_nav_bar: ^0.0.1
+  elegant_nav_bar: ^0.0.22
 ```
 
 Or, for the latest development version:
@@ -39,12 +39,10 @@ dependencies:
 ## Examples style:
 
 - `Simple`<br>
-<img width="351" alt="image" src="https://github.com/user-attachments/assets/62d6c14e-e16b-4d7a-9d62-f7bc397c454c" />
-
+  <img width="351" alt="image" src="https://github.com/user-attachments/assets/62d6c14e-e16b-4d7a-9d62-f7bc397c454c" />
 
 - `Floating`<br>
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/38515ad2-499e-4f86-b17e-19b68e77ed7f" />
-
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/38515ad2-499e-4f86-b17e-19b68e77ed7f" />
 
 ## Usage
 
@@ -183,7 +181,6 @@ flutter pub get
 flutter run
 ```
 
-
 ## Troubleshooting
 
 ### Common Issues
@@ -217,7 +214,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ## About the Author
 
