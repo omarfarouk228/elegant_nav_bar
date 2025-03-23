@@ -34,12 +34,16 @@ dependencies:
 
 ## Demo
 
+https://github.com/user-attachments/assets/b2149fe9-bb29-4009-8117-236720c32d1c
 
 ## Examples style:
 
 - `Simple`
+<img width="351" alt="image" src="https://github.com/user-attachments/assets/62d6c14e-e16b-4d7a-9d62-f7bc397c454c" />
+
 
 - `Floating`
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/38515ad2-499e-4f86-b17e-19b68e77ed7f" />
 
 
 ## Usage
