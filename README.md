@@ -34,7 +34,7 @@ dependencies:
 
 ## Demo
 
-<img src="https://github.com/user-attachments/assets/02e1e5b3-552e-46a7-96c5-c5725a2abd2d" height="400">
+<img src="https://github.com/user-attachments/assets/29923169-13a0-4227-9d39-c0ae3a727c08" style="height:300px">
 
 ## Examples style:
 
