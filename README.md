@@ -27,7 +27,7 @@ Or, for the latest development version:
 dependencies:
   elegant_nav_bar:
     git:
-      url: https://github.com/yourusername/elegant_nav_bar.git
+      url: https://github.com/omarfarouk228/elegant_nav_bar.git
 ```
 
 ## Usage
