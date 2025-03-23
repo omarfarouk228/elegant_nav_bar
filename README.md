@@ -32,6 +32,16 @@ dependencies:
       url: https://github.com/omarfarouk228/elegant_nav_bar.git
 ```
 
+## Demo
+
+
+## Examples style:
+
+- `Floating`
+
+- `Floating`
+
+
 ## Usage
 
 ```dart
@@ -115,10 +125,96 @@ ElegantBottomNavigationBar(
 )
 ```
 
+## Advanced Usage
+
+### SVG Icons
+
+```dart
+NavigationItem(
+  label: 'Analytics',
+  iconWidget: SvgPicture.asset(
+    'assets/icons/analytics.svg',
+    width: 24,
+    height: 24,
+    color: Colors.grey, // Will be overridden by the selected/unselected colors
+  ),
+)
+```
+
+### Custom Animations
+
+```dart
+ElegantBottomNavigationBar(
+  // Other parameters...
+  animationDuration: Duration(milliseconds: 300),
+  animationCurve: Curves.easeInOut,
+)
+```
+
+### Handling System Navigation Bar
+
+```dart
+// In your main.dart
+SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+  systemNavigationBarColor: Colors.white, // Set to match your nav bar
+  systemNavigationBarIconBrightness: Brightness.dark, // For dark icons
+));
+```
+
 ## Example
 
-Check out the example app in the `/example` folder for a complete demonstration of how to use this package.
+Check out the example app in the `/example` folder for a complete demonstration of how to use this package. The example includes:
+
+- Basic implementation
+- Different indicator styles
+- Floating navigation bar
+- SVG icon integration
+- Responsive layouts
+
+To run the example:
+
+```
+cd example
+flutter pub get
+flutter run
+```
+
+
+## Troubleshooting
+
+### Common Issues
+
+- **Indicator not visible**: Check if the indicator color contrasts with the background color
+- **Animation lag**: Reduce the animation duration or simplify your screen widgets
+- **Overflow errors**: Ensure your navigation bar has enough height for your content
+
+### Solutions
+
+```dart
+// Fix for overflow issues
+ElegantBottomNavigationBar(
+  // Other parameters...
+  height: 70.0, // Increase height
+  iconSize: 20.0, // Decrease icon size
+  selectedLabelStyle: TextStyle(fontSize: 12), // Smaller text
+)
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+## About the Author
+
+Created by [Omar Farouk](https://github.com/omarfarouk228)
