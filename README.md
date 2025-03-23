@@ -34,7 +34,7 @@ dependencies:
 
 ## Demo
 
-![screen-20250323-072021~2](https://github.com/user-attachments/assets/02e1e5b3-552e-46a7-96c5-c5725a2abd2d)
+<img src="https://github.com/user-attachments/assets/02e1e5b3-552e-46a7-96c5-c5725a2abd2d" height="400">
 
 ## Examples style:
 
