@@ -14,6 +14,7 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _isFloating = true;
   IndicatorPosition _indicatorPosition = IndicatorPosition.bottom;
   IndicatorShape _indicatorShape = IndicatorShape.dot;
+  int animationDuration = 200;
 
   // Define pages to display
   final List<Widget> _pages = [
@@ -56,6 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           NavigationItem(label: 'Settings', icon: AppAssets.settingsIcon),
         ],
+        animationDuration: Duration(milliseconds: animationDuration),
+        animationCurve: Curves.easeInOutCubic,
       ),
     );
   }
