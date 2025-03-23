@@ -37,7 +37,7 @@ dependencies:
 
 ## Examples style:
 
-- `Floating`
+- `Simple`
 
 - `Floating`
 
