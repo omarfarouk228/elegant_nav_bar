@@ -103,6 +103,12 @@ class ElegantBottomNavigationBar extends StatefulWidget {
   /// Border radius of the floating navigation bar
   final double floatingBorderRadius;
 
+  /// Duration of the animation
+  final Duration animationDuration;
+
+  /// Curve of the animation
+  final Curve animationCurve;
+
   /// Creates a ElegantBottomNavigationBar widget
   const ElegantBottomNavigationBar({
     super.key,
@@ -134,6 +140,8 @@ class ElegantBottomNavigationBar extends StatefulWidget {
       vertical: 8.0,
     ),
     this.floatingBorderRadius = 20.0,
+    this.animationDuration = const Duration(milliseconds: 200),
+    this.animationCurve = Curves.linear,
   });
 
   @override
@@ -150,7 +158,7 @@ class ElegantBottomNavigationBarState extends State<ElegantBottomNavigationBar>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 200),
+      duration: widget.animationDuration,
     );
   }
 
@@ -212,7 +220,8 @@ class ElegantBottomNavigationBarState extends State<ElegantBottomNavigationBar>
       // Build dot indicator
       if (widget.indicatorShape == IndicatorShape.dot) {
         return AnimatedContainer(
-          duration: const Duration(milliseconds: 200),
+          duration: widget.animationDuration,
+          curve: widget.animationCurve,
           height: isSelected ? widget.indicatorDiameter : 0,
           width: isSelected ? widget.indicatorDiameter : 0,
           decoration: BoxDecoration(
@@ -224,7 +233,8 @@ class ElegantBottomNavigationBarState extends State<ElegantBottomNavigationBar>
       // Build bar indicator
       else {
         return AnimatedContainer(
-          duration: const Duration(milliseconds: 200),
+          duration: widget.animationDuration,
+          curve: widget.animationCurve,
           height: widget.indicatorHeight,
           width: isSelected ? widget.indicatorWidth : 0,
           decoration: BoxDecoration(
@@ -236,7 +246,8 @@ class ElegantBottomNavigationBarState extends State<ElegantBottomNavigationBar>
     }
 
     return AnimatedContainer(
-      duration: const Duration(milliseconds: 200),
+      duration: widget.animationDuration,
+      curve: widget.animationCurve,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
