@@ -1,3 +1,5 @@
+[![pub](https://img.shields.io/pub/v/elegant_nav_bar?label=pub&logo=dart)](https://pub.dev/packages/elegant_nav_bar/install) [![stars](https://img.shields.io/github/stars/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar)  [![issues](https://img.shields.io/github/issues/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar/issues) [![commit](https://img.shields.io/github/last-commit/omarfarouk228/elegant_nav_bar?logo=github)](https://github.com/omarfarouk228/elegant_nav_bar/commits)
+
 # Elegant Navigation Bar
 
 A sleek, customizable bottom navigation bar for Flutter with animated selection indicators, SVG support, and distinctive dot indicators. Elevate your app's navigation with smooth transitions and visual feedback.
