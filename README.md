@@ -38,11 +38,11 @@ dependencies:
 
 ## Examples style:
 
-- `Simple`
+- `Simple`<br>
 <img width="351" alt="image" src="https://github.com/user-attachments/assets/62d6c14e-e16b-4d7a-9d62-f7bc397c454c" />
 
 
-- `Floating`
+- `Floating`<br>
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/38515ad2-499e-4f86-b17e-19b68e77ed7f" />
 
 
